@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>A Birthday Surprise</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<audio id="birthdayMusic" preload="auto">
+    <source src="music/BirthdaySong.mp3" type="audio/mpeg">
+</audio>
+
+    <!-- ========================= -->
+    <!-- FIRST SCREEN -->
+    <!-- ========================= -->
+
+    <div class="global-stars">
+
+    <span>✦</span>
+    <span>✧</span>
+    <span>✦</span>
+    <span>✧</span>
+    <span>✦</span>
+    <span>✧</span>
+    <span>✦</span>
+    <span>✧</span>
+    <span>✦</span>
+    <span>✧</span>
+
+</div>
+    <main class="screen" id="firstScreen">
+
+        <div class="gift-card">
+
+            <div class="gift-icon">
+                🎁
+            </div>
+
+            <p class="small-text">
+                A SURPRISE FOR YOU
+            </p>
+
+            <h1>
+                HANCY KEVITA❤️
+            </h1>
+
+            <p class="sub-text">
+                This is just for you muttagoees ❤️
+            </p>
+
+        </div>
+
+
+        <button id="unwrapBtn">
+            Unwrap It ✨
+        </button>
+
+
+        <p class="sound-text">
+            🔊 Sound on for the full magic
+        </p>
+
+    </main>
+
+
+<!-- ========================= -->
+<!-- INTERACTIVE BIRTHDAY GIFT -->
+<!-- ========================= -->
+
+<div id="animationScreen" class="hidden">
+
+    <div class="animation-content">
+
+        <div class="animation-gift">
+            🎁
+        </div>
+
+        <h2>
+            A Little Surprise ✨
+        </h2>
+
+        <p>
+            Something special is waiting for you ❤️
+        </p>
+
+        <button id="animationNextBtn">
+            Next ➡️
+        </button>
+
+    </div>
+
+</div>
+<!-- ========================= -->
+<!-- ZIP INTERACTIVE GIFT -->
+<!-- ========================= -->
+
+<div id="interactiveScreen" class="hidden">
+
+    <iframe
+        id="interactiveFrame"
+        src="Interactive Birthday Gift/index.html"
+        title="Interactive Birthday Gift">
+    </iframe>
+
+</div>
+    <!-- ========================= -->
+    <!-- CAKE SCREEN -->
+    <!-- ========================= -->
+
+    <div id="surpriseScreen" class="hidden">
+        <div id="wishConfetti"></div>
+
+        <div class="cake-screen">
+
+            <p class="cake-title">
+                Make a wish... ✨
+            </p>
+
+
+            <div class="cake">
+
+                <div class="candle">
+
+                    <div class="flame">
+                        🔥
+                    </div>
+
+                </div>
+
+                <div class="cake-top"></div>
+
+                <div class="cake-body">
+                    🎂
+                </div>
+
+            </div>
+
+
+            <p class="cake-message">
+                Close your eyes and make a wish ❤️
+            </p>
+
+
+            <button id="blowBtn">
+                Make a Wish ✨
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <!-- ========================= -->
+    <!-- HAPPY BIRTHDAY SCREEN -->
+    <!-- ========================= -->
+
+    <div id="birthdayScreen" class="hidden">
+
+        <div class="confetti-container">
+
+            <span>🎉</span>
+            <span>✨</span>
+            <span>🎊</span>
+            <span>✨</span>
+            <span>🎉</span>
+            <span>💫</span>
+            <span>🎊</span>
+            <span>✨</span>
+
+        </div>
+
+
+        <div class="balloons">
+
+            <div class="balloon balloon1">
+                🎈
+            </div>
+
+            <div class="balloon balloon2">
+                🎈
+            </div>
+
+            <div class="balloon balloon3">
+                🎈
+            </div>
+
+            <div class="balloon balloon4">
+                🎈
+            </div>
+
+        </div>
+
+
+        <div class="hearts">
+
+            <span>❤️</span>
+            <span>💖</span>
+            <span>💕</span>
+            <span>💗</span>
+            <span>❤️</span>
+
+        </div>
+
+
+        <div class="birthday-content">
+
+            <div class="confetti-title">
+                🎉 ✨ 🎊
+            </div>
+
+
+            <h2>
+                HAPPY
+            </h2>
+
+
+            <h3>
+                BIRTHDAY!
+            </h3>
+
+            <p>
+                Many more happy returns of the day Muttagoeesss❤️
+            </p>
+
+
+            <div class="birthday-emoji">
+                🎂 🎈 🎁
+            </div>
+
+
+            <!-- OPEN LETTER BUTTON -->
+
+            <button id="openLetterBtn">
+                Open My Letter 💌
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <!-- ========================= -->
+    <!-- FINAL LETTER SCREEN -->
+    <!-- ========================= -->
+
+    <div id="letterScreen" class="hidden">
+        <div class="stars">
+
+    <span>✦</span>
+    <span>✧</span>
+    <span>✦</span>
+    <span>✧</span>
+    <span>✦</span>
+    <span>✧</span>
+    <span>✦</span>
+    <span>✧</span>
+    <span>✦</span>
+    <span>✧</span>
+
+</div>
+       <div class="floating-hearts">
+
+    <span>💖</span>
+    <span>💕</span>
+    <span>❤️</span>
+    <span>💗</span>
+    <span>💖</span>
+    <span>💕</span>
+    <span>❤️</span>
+    <span>💗</span>
+    <span>💖</span>
+    <span>💕</span>
+    <span>❤️</span>
+    <span>💗</span>
+
+</div>
+
+       <div class="letter-content">
+
+    <div class="envelope">
+        💌
+    </div>
+
+
+            <p class="letter-small">
+                A LITTLE MESSAGE FOR YOU ❤️
+            </p>
+
+
+            <h2>
+                MUTTAGOEESSS❤️
+            </h2>
+
+
+            <p class="letter-text" id="typingText">
+
+               Sorry pahh unkooda iruka vendiya nerathula ennala iruka mudiyala,
+               Enna mannipanu nanaikuren.
+            </p>
+
+
+            <p class="letter-text" id="typingText2">
+
+                Anyway intha nala ni life la maraka koodathu unkaga naney coding potu itha ready panniruken. Na un birthday ya marakave maaten. Ni enga irunthalo yarukooda irunthalo eppovumey happy ah irukanum☺️.
+
+            </p>
+
+
+            <div class="letter-ending">
+
+                Happy Birthday! 🎂❤️
+
+            </div>
+            
+
+        </div>
+
+    </div>
+
+
+    <!-- JAVASCRIPT -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
