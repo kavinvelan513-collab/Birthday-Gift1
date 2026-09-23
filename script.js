@@ -222,7 +222,7 @@ const message1 =
     "Sorry pahh unkoooda iruka vendiya nerathula ennala iruka mudiyala. Enna mannipanu nanaikuren.";
 
 const message2 =
-    "Anyway intha nal enaku romba mukiyamana nal bcz it's your birthday athuku tha naney coding potu itha ready panniruken.Na unna en lifela eppovumey maraka maten. Ennaikum ni tha ennoda special person . Ni enga irunthalo yarukooda irunthalo eppovumey happy ah irukanum.";
+    "Anyway intha nal enaku romba mukiyamana nal bcz it's your birthday athuku tha naney coding potu itha ready panniruken.Na unna en lifela eppovumey maraka maten. Ennaikum ni tha ennoda special person . Ni enga irunthalo yarukooda irunthalo eppovumey happy ah irukanum okvaa☺️.";
 
 
 function typeMessage(
