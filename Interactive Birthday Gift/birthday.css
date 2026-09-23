@@ -465,3 +465,22 @@ body{
   .wish.is-in .wish__heroWrap::before{ animation:none; opacity:.9; }
   .wish.is-in .wish__heroWrap::after{ animation:none; opacity:0; }
 }
+/* 📱 MOBILE NEXT BUTTON */
+
+@media (max-width: 600px) {
+
+    .replay {
+        right: 15px;
+        bottom: 15px;
+
+        padding: 14px 22px;
+        min-width: 100px;
+        min-height: 48px;
+
+        font-size: 16px;
+        letter-spacing: .08em;
+
+        z-index: 20;
+    }
+
+}
